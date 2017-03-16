@@ -14,21 +14,45 @@
         <!--endbuild-->
     </head>
     <body>
-        <!--[if lt IE 8]>
+        <!--[if lt IE 10]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        tsbits starter
 
-        
+        <nav>
+            <div class="noSkew">
+                <canvas id="agentContainer"></canvas>
+
+                <div class="in">
+                    <a href="#" class="photo actif">Photographie</a>
+                    <div class="icon"></div>
+                    <a href="#" class="dev">Développement</a><br/>
+                    <a href="#" class="infos">Informations</a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="page-content">
+
+            <section class="content-photo">
+            </section>
+
+            <section class="load">
+                <div id="load-img" class="load-img"></div>
+            </section>
+        </section>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.0/vivus.min.js"></script>
         <!--build:js js/main.min.js -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/vendor/jquery-1.12.0.min.js"></script>
-        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="js/vendor/delaunay.js"></script>
         <script src="js/vendor/svg4everybody.min.js"></script>
-        <script>svg4everybody();</script> 
+        <script>svg4everybody();</script>
         <script src="js/plugins.js"></script>
+        <script src="js/canvasBuild.js"></script>
+        <script src="js/Animations.js"></script>
         <script src="js/main.js"></script>
         <!-- endbuild -->
 

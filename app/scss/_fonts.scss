@@ -1,0 +1,31 @@
+/* regular */
+@font-face {
+    font-family: 'avenirpro';
+    src: url("../fonts/AvenirNext-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* regular italic */
+@font-face {
+    font-family: 'avenirpro';
+    src: url("../fonts/AvenirNext-Italic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* bold */
+@font-face {
+    font-family: 'avenirpro';
+    src: url("../fonts/AvenirNext-Bold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* bold italic */
+@font-face {
+    font-family: 'avenirpro';
+    src: url("../fonts/AvenirNext-BoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}

@@ -1,0 +1,13 @@
+$grey-dark: #171717;
+$grey-med: #262626;
+$grey-light: #cecece;
+
+@mixin skew($deg: -2deg) {
+	transform-origin: top left;
+	transform: skew(00deg, $deg);
+}
+@mixin noSkew($deg: 2deg) {
+	transform-origin: top left;
+	transform: skew(00deg, $deg);
+}
+
